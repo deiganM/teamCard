@@ -11,3 +11,5 @@
 
 ### Instagram Icon
 - [https://fontawesome.com/icons/instagram?style=brands](https://fontawesome.com/icons/instagram?style=brands)
+
+I changed the colors of the icons to "navy".
