@@ -2,9 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Nunito&display=swap');
 
-/* font-family: 'Nunito', sans-serif;
-font-family: 'Libre Baskerville', serif; */
-
 /***** CARD *****/
 
 body {
@@ -26,10 +23,6 @@ main {
   grid-template-columns: 1fr;
   grid-template-rows: 5rem 5rem 8.5rem 1fr;
   box-shadow: 5px 5px 5px lightgrey;
-  /* justify-content: center; */ /* aligned profile pic, but made the background go away */
-  /* justify-items: center;  aligned profile pic, but made the background go away */
-  /* align-items: center; did nothing */
-  /* align-content: center; did nothing */
 }
 
  .background-image {
