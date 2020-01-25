@@ -1,0 +1,75 @@
+/***** FONTS *****/
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Nunito&display=swap');
+
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Libre Baskerville', serif; */
+
+/***** CARD *****/
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  display: grid;
+}
+
+.card {
+  display: grid;
+  width: 35ch;
+  background: #eee;
+  margin: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 5rem 8.5rem 1fr;
+  box-shadow: 5px 5px 5px lightgrey;
+  /* justify-content: center; */ /* aligned profile pic, but made the background go away */
+  /* justify-items: center;  aligned profile pic, but made the background go away */
+  /* align-items: center; did nothing */
+  /* align-content: center; did nothing */
+}
+
+ .background-image {
+  height: 10rem;
+  background-image: url('assets/river.jpg');
+  background-position: center;
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+} 
+
+.jane-doe {
+  border-radius: 50%;
+  border: .5rem white solid;
+  shape-outside: circle();
+  height: 10rem;
+  width: 10rem;
+  justify-self: center;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  place-self: end center;
+  font-size: 18px;
+  margin: 0;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+footer {
+  border-top: 1px #ccc solid;
+  display: flex;
+  justify-content: space-evenly; 
+}
+
+.icon {
+  height: 2.5rem;
+  margin: 1rem 0;
+}
